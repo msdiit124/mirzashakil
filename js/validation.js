@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $("#send_message").click(function(a) {
+		
         a.preventDefault();
         var b = !1,
             c = $("#name").val(),

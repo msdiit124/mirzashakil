@@ -1,558 +1,665 @@
 <!DOCTYPE html>
 <html lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <title>Mirza - Shakil Personal Website</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+        <meta content="" name="author" />
 
-<head>
-    <meta charset="utf-8">
-    <title>Mirza Shakil- Personal Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
 
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
-    <!-- CSS Files
+        <!-- CSS Files
     ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/animate.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.transitions.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/coloring.css" type="text/css">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
 
-    <!-- color scheme -->
-    <link rel="stylesheet" href="css/colors/red.css" type="text/css">
-</head>
+        <!-- color scheme -->
+        <link id="colors" href="css/colors/scheme-02.css" rel="stylesheet" type="text/css" />
+        <link href="css/coloring.css" rel="stylesheet" type="text/css" />
+    </head>
 
-<body id="homepage" class="homepage">
-
-    <div id="wrapper" class="fullwidth no-padding">
-		
-		<div id="bg-overlay"></div>
-		
-        <div id="main">
-
-            <!-- TOP BAR BEGIN -->
-            <div id="top-bar" class="transparent dark">
-
-                <div id="logo">
-                    Mirza Shakil
+     <body class="side-layout">
+        <div id="wrapper">
+            <div class="page-overlay">
+                <div class="preloader-wrap">
+                    <div class="spinner">
+                        <div class="bounce1"></div>
+                        <div class="bounce2"></div>
+                        <div class="bounce3"></div>
+                    </div>
                 </div>
-
-                <nav>
-                    <ul id="mainmenu">
-                        <li><a href="#section-home" class="active"><span>01</span>Home</a></li>
-                        <li><a href="#section-services"><span>02</span>Services</a></li>
-                        <li><a href="#section-experiences"><span>03</span>Experiences</a></li>
-                        <li><a href="#section-portfolio"><span>04</span>Portfolio</a></li>
-                        <li><a href="#section-blog"><span>05</span>Blog</a></li>
-                        <li><a href="#section-contact"><span>06</span>Contact</a></li>
-                    </ul>
-                </nav>
-
-                <span id="menu-btn">
-					<span class="lt"></span>
-					<span class="lm"></span>
-					<span class="lb"></span>
-				</span>
-
-                <div id="mp-col">
-                    <a href="#" class="btn-download light"><span class="id-color"><i class="fa fa-file-pdf-o"></i></span>Download CV</a>
-                </div>
-
-                <div class="clearfix"></div>
-
             </div>
-            <!-- TOP BAR CLOSE -->
 
-            <!-- CONTENT BEGIN -->
-            <div id="content">
+            <!-- header for mobile begin -->
+            <header class="header-light header-for-mobile transparent scroll-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between">
+                                <div class="align-self-center header-col-left">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            Mirza Shakil
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                                <div class="align-self-center ml-auto header-col-mid">
+                                    <!-- mainmenu begin -->
+                                    <ul id="mainmenu" class="scrollnav">
+                                        <li><a href="#section-hero" class="active">Home</a></li>
+                                        <li></li>
+                                        <li><a href="#section-about">About</a></li>
+                                        <li></li>
+                                        <li><a href="#section-services">Services</a></li>
+                                        <li></li>
+                                        <li><a href="#section-portfolio">Portfolio</a></li>
+                                        <li></li>
+                                        <li><a href="#section-blog">Blog</a></li>
+                                        <li></li>
+                                        <li><a href="#section-contact">Contact</a></li>
+                                        <li></li>
+                                    </ul>
 
-                <div class="page-deco">+880 16244 52103</div>
+                                    <!-- mainmenu close -->
+                                </div>
+                                <div class="align-self-center ml-auto header-col-right">
+                                    <div class="social-icons">
+                                        <a href="https://www.behance.net/mirzashakil"><i class="fa fa-behance fa-lg"></i></a>
+                                        <a href="https://dribbble.com/Mirza_Shakil"><i class="fa fa-dribbble fa-lg"></i></a>
+                                        <a href="https://www.linkedin.com/in/mirza-shakil-361377169"><i class="fa fa-linkedin fa-lg"></i></a>
+                                        <a href="https://www.facebook.com/Msdiit/"><i class="fa fa-facebook fa-lg"></i></a>
+                                        <a href="https://www.instagram.com/_mirza_shakil_/"><i class="fa fa-instagram fa-lg"></i></a>
+                                    </div>
 
-                <div class="social-icons-fixed">
-                    <div class="sc-inner">
+                                    <span id="menu-btn"></span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header for mobile close -->
+
+            <!-- header for desktop begin -->
+            <div id="sidebar-content" class="sc-dark text-center">
+                <div class="sc-inner">
+                    <!-- logo begin -->
+                    <div id="sc-logo">
+                        <a href="index.html">
+                            <img src="images/misc/profile-2.jpg" class="img-fluid" alt="">
+                            <h1>Mirza Shakil</h1>
+                        </a>
+                    </div>
+                    <!-- logo close -->
+
+                    <!-- mainmenu begin -->
+                    <ul id="menuside" class="scrollnav">
+                        <li><a href="#section-hero" class="active">Home</a></li>
+                        <li></li>
+                        <li><a href="#section-about">About</a></li>
+                        <li></li>
+                        <li><a href="#section-services">Services</a></li>
+                        <li></li>
+                        <li><a href="#section-portfolio">Portfolio</a></li>
+                        <li></li>
+                        <li><a href="#section-blog">Blog</a></li>
+                        <li></li>
+                        <li><a href="#section-contact">Contact</a></li>
+                        <li></li>
+                    </ul>
+                    <!-- mainmenu close -->
+
+
+                    <div class="social-icons">
                         <a href="https://www.behance.net/mirzashakil"><i class="fa fa-behance fa-lg"></i></a>
+                        <a href="https://www.facebook.com/Msdiit/"><i class="fa fa-facebook fa-lg"></i></a>
                         <a href="https://dribbble.com/Mirza_Shakil"><i class="fa fa-dribbble fa-lg"></i></a>
                         <a href="https://www.linkedin.com/in/mirza-shakil-361377169"><i class="fa fa-linkedin fa-lg"></i></a>
-                        <a href="https://www.facebook.com/Msdiit/"><i class="fa fa-facebook fa-lg"></i></a>
-                        <a href="https://www.instagram.com/_mirza_shakil_/"><i class="fa fa-instagram fa-lg"></i></a>
-                        
                     </div>
                 </div>
 
-                <!-- section begin -->
-                <section id="section-home" aria-label="section" class="full-height no-top no-bottom text-light" data-bgimage="url(images/background/1.jpg)">
-					<div id="particles-js"></div>
-                    <div class="overlay-bg t50">
-                        <div class="middle">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <p class="lead"><span class="id-color">Hi, welcome to my personal website.</span></p>
-                                        <div class="spacer20"></div>
-                                        <div class="h1_big">My name Mirza Shakil, a
-                                            <br> Professional
-                                            <div class="typed-strings">
-                                                <p>Graphic Design Expert</p>
-                                                <p>Motion Graphic Expert</p>
-                                                <p>Website And App UI/UX Expert</p>
-                                            </div>
-                                            <div class="typed"></div>
-                                        </div>
-                                        <div class="spacer60"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="sc-bg"></div>
+            </div>
+            <!-- header for desktop close -->
 
-                    <a href="#section-services" class="scroll-to">
-                        <span class="arrow bounce">
-							<i class="arrow_down"></i>
-                        </span>
-                    </a>
-                </section>
-                <!-- section close -->
+            <div id="main-content">
+            <!-- content begin -->
+            
+            <!-- content begin -->
+            <div class="no-bottom no-top text-light" id="content" data-bgcolor="#202020">
+                <div id="top"></div>
 
-                <!-- section begin -->
-                <section id="section-services" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/1.jpg"alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
+                <section id="section-hero" class="vertical-center text-light" data-bgimage="url(images/background/4.jpg) top" data-stellar-background-ratio=".6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 offset-md-2 text-center">
+                                <h3 class="id-color">Welcome</h3>
+                                <div class="spacer-10"></div>
 
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_lightbulb id-color"></i>
-                                                <h3>Graphic Design</h3> High end branding elements, Social media elements design, Product label design, Exclusive mascot, esports, twitch, gaming logo, cartoon and NFT character.
-                                            </div>
-                                            <i class="big icon_lightbulb id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_flowchart_alt id-color"></i>
-                                                <h3>Motion Graphic</h3> Social media promotional video aniamtion, Product promotional video aniamtion, Logo aniamtion, Storyboard animation, 2D, 3D character animation desing.
-                                            </div>
-                                            <i class="big icon_flowchart_alt id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                    <!-- service box begin -->
-                                    <div class="feature-box mb30">
-                                        <div class="inner">
-                                            <div class="text">
-                                                <i class="icon_cogs id-color"></i>
-                                                <h3>Website And Mobile App UI/UX Design</h3> Business Website, NFT website, Ecommerce website design, Landing page, Dashboard and Mobile application design.
-                                            </div>
-                                            <i class="big icon_cogs id-color"></i>
-                                        </div>
-                                    </div>
-                                    <!-- service box close -->
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-experiences" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/2.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-                                    <p class="lead">
-                                        Hello, I am a professional designer from Bangladesh, with a strong focus in website and mobile app UI/UX design. I love to get new experiences and always learn from my surroundings. I've done more than 285 projects. I looking forward to any opportunities and challenges.
-                                    </p>
-
-                                    <div class="spacer30"></div>
-
-                                    <div class="de_tab tab_style_2">
-                                        <ul class="de_nav">
-                                            <li class="active">
-                                                <span>Works Experince</span>
-                                            </li>
-                                            <li>
-                                                <span>Certification</span>
-                                            </li>
-                                        </ul>
-
-                                        <div class="de_tab_content text-left">
-
-                                            <div class="tab_single_content">
-                                                <div class="exp-box">
-                                                    <h5>2017 - 2020</h5>
-                                                    <h4>Director (UI/UX Expert).</h4>
-                                                    <p>Rektech By Rekta.</p>
-                                                </div>
-                                                
-                                                <div class="exp-box">
-                                                    <h5>2020 - 2021</h5>
-                                                    <h4>Visualizer (Motion Graphic And UI/UX Designer).</h4>
-                                                    <p>Adverto Interactive.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2021 - Now</h5>
-                                                    <h4>UI/UX And Visual Designer.</h4>
-                                                    <p>Reea Digital Ltd (Romania).</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2019 - now</h5>
-                                                    <h4>Level two Seller (Motion Graphic And UI/UX Designer).</h4>
-                                                    <p>www.fiverr.com, www.upwork.com</p>
-                                                </div>
-                                            </div>
-
-                                            <div class="tab_single_content">
-                                                <div class="exp-box">
-                                                    <h5>2014 - 2019</h5>
-                                                    <h4>Information Technology (IT).</h4>
-                                                    <p>Daffodil International Academy (DIA) in Bangladesh, University Of Greenwich In London.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2015</h5>
-                                                    <h4>UI/UX Design, Udemy.</h4>
-                                                    <p>Website, Landing page, NFT Website, Dashboard And Mobile App UI/UX Design.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2016</h5>
-                                                    <h4>UI/UX Design, Shikhbe Shobai.</h4>
-                                                    <p>Graphic And UI/UX design.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2017</h5>
-                                                    <h4>Graphic And UI Design, Shikhbe Shobai.</h4>
-                                                    <p>Graphic And UI design.</p>
-                                                </div>
-                                                <div class="exp-box">
-                                                    <h5>2018</h5>
-                                                    <h4>Motion Graphic, Shikhbe Shobai.</h4>
-                                                    <p>Motion Graphic 2D And 3D Character animation.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-portfolio" aria-label="section-portfolio" class="fluid overwidth">
-                    <div class="container-fluid">
-                        <div id="album-carousel-2" class="owl-carousel owl-theme">
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/1.jpg)" data-url="portfolio-single-1.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Music Player App</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>"MUSIC MAX" music player app.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/2.jpg)" data-url="portfolio-single-2.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Product Selling Website</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Product Selling/Music Selling Website.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/3.jpg)" data-url="portfolio-single-3.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Riding Service App</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Ridding Service App.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/4.jpg)" data-url="portfolio-single-4.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>IT Company Webiste</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>IT Company Webiste.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item click" data-bgimage="url(images/portfolio/5.jpg)" data-url="portfolio-single-5.html">
-                                <div class="mask s2 full-height">
-                                    <div class="cover">
-                                        <div class="text">
-                                            <h2>Hotel Booking Website</h2>
-                                            <div class="tiny-border"></div>
-                                            <div class="clearfix"></div>
-                                            <p>Hotel Booking Website.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					
-					<div class="pf-nav left"><i class="arrow_left"></i></div>
-					<div class="pf-nav right"><i class="arrow_right"></i></div>
-                </section>
-                <!-- section close -->
-
-                <!-- section begin -->
-                <section id="section-blog" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/3.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">28</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">The Best Website Design of 2022</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">26</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">Make Better User Interface</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">24</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">The Importance Of Web Design</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">22</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">10 Web Design Tips From Experts</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="bloglist s1 item">
-                                        <div class="post-content">
-                                            <div class="date-box">
-                                                <div class="d">18</div>
-                                                <div class="m">MAR</div>
-                                            </div>
-                                            <div class="post-text">
-                                                <h3><a href="blog-single.html">Make Responsive Website Layouts</a></h3>
-                                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </section>
-                <!-- section close -->
-
+                                <div class="h1_big text-white">
+                                    I am
+                                    <div class="typed-strings">
+                                        <p>Mirza Shakil</p>
+                                        <p>UI/UX Designer</p>
+                                        <p>Visual Designer</p>
+                                        <p>Motion Designer</p>
                 
+                                    </div>
+                                    <div class="typed"></div>
+                                </div>
+                            </div>
+
+                            <div class="spacer-30"></div>
+
+                            <div class="col-md-6 offset-md-3 text-center">
+                                <p class="lead wow fadeInUp" data-wow-delay=".75s">I am a UI/UX And Visual Designer with a strong focus on digital branding,
+                                    Let me introduct you the most attractive brand design service.</p>
+                                <div class="spacer-20"></div>
+                                <a class="btn-custom scroll-to wow fadeInUp" data-wow-delay="1s" href="#section-about">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-about" data-bgcolor="#202020">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-sm-30 text-center">
+                                <div class="de-images">
+                                    <img class="img-fluid wow fadeInRight" src="images/misc/3a.jpg" alt="" />
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 offset-md-1 wow fadeInLeft" data-wow-delay=".5s">
+                                <h2>About Me</h2>
+                                <p>I am a UI/UX And Visual Designer with a strong focus on digital branding. UI/UX And Visul design seeks to attract,
+                                    inspire, create desires and motivate people to respond to messages, with a view to making a favorable impact.</p>
+
+                                <p>
+                                <li><span>Education</span> : <span>Infromation Technology (IT).</span></li>
+                                <li><span>Qualification</span> : <span>Engineer, UI/UX And Visual Designer.</span></li>
+                                <li><span>Birthday</span> : <span>August 18.</span></li>
+                                <li><span>Phone</span> : <span>+880 16244 52103.</span></li>
+                                <li><span>Email</span> : <span>msdiit124@gmail.com.</span></li>
+                                <li><span>From</span> : <span>Bangladesh.</span></li>
+                                <li><span>Availability</span> : <span>For all project.</span></li>
+                                </p>
+
+                                <div class="spacer-10"></div>
+                                <span id="btn-show-skills" class="btn-border wow fadeInUp" data-wow-delay="1s">Show My Skills</span>
+                                <span id="btn-show-skills" class="btn-border wow fadeInUp" data-wow-delay=>Download CV</span>
+
+                            </div>
+                        </div>
+
+                        <div id="skills" class="row">
+                            <div class="spacer-double"></div>
+                            <div class="spacer-double"></div>
+                            <div class="col-md-4">
+                                <div class="skill-bar style-1">
+                                    <h5>Adobe Photoshop</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="80%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-1">
+                                    <h5>Adobe Illustrator</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="skill-bar style-1">
+                                    <h5>Adobe After Effect</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="85%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-1">
+                                    <h5>Adobe XD</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="skill-bar style-1">
+                                    <h5>Figma</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="80%"></div>
+                                    </div>
+                                </div>
+
+                                <div class="skill-bar style-1">
+                                    <h5>Html/Css</h5>
+                                    <div class="de-progress">
+                                        <div class="value"></div>
+                                        <div class="progress-bar" data-value="70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="section-services" data-bgcolor="#252525">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Services</h2>
+                                    <p>Client service is always very important to me, Its my responsibility to make my every single client satisfied.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay="0s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-laptop id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Brand Design</h4>
+                                        <p>let me design a attract brand for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-paper-plane-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Social Media Design</h4>
+                                        <p>let me promote your business through my attractive socila media design.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".5s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-line-chart id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Mascot, Esports And Gaming Logo Design</h4>
+                                        <p>let me design a attractive brand logo for your business and channel.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay="0s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-object-group id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Motion Design (Animaiton)</h4>
+                                        <p> let me inroduce your business in front of the world through animated promotional video.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".25s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-hdd-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Web And App UI/UX Design</h4>
+                                        <p>let me design the most attractive and responsive web and app UI/UX design for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30 wow fadeInRight" data-wow-delay=".5s">
+                                <div class="f-box f-icon-left f-icon-circle f-border">
+                                    <i class="fa fa-comments-o id-color"></i>
+                                    <div class="fb-text">
+                                        <h4>Web Design And Development</h4>
+                                        <p>let me develop the most attractive and responsive website for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="section-cta" class="text-light" data-bgimage="url(images/background/3.jpg) top" data-stellar-background-ratio=".5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 text-center">
+                                <h2>I am Available For Freelancer</h2>
+                                <div class="spacer-10"></div>
+                                <a href="#" class="btn-custom">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            
 
                 <!-- section begin -->
-                <section id="section-contact" class="fluid">
-                    <div class="container-fluid">
-                        <div class="row-fluid table">
-                            <div class="col-md-6 va-top">
-                                <div class="img-fx">
-                                    <img src="images/misc/4.jpg" alt="">
-                                    <div class="img-url"></div>
-                                </div>
+                <section id="section-portfolio" data-bgcolor="#252525">
+                    <div class="container">
+                        <!-- portfolio filter begin -->
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h3><span class="id-color">Portfolio</span></h3>
+                                <h2>Creative Artworks</h2>
                             </div>
-                            <div class="col-md-6">
-                                <div class="content-wrap">
-                                    <div class="in-box">
-                                        <ul class="data">
-                                            <li>
-                                                <div>E-mail</div>
-                                                <div>msdiit124@gmail.com</div>
-                                            </li>
-                                            <li>
-                                                <div>Phone</div>
-                                                <div>(880) 1624452103</div>
-                                            </li>
-                                            <li>
-                                                <div>Website</div>
-                                                <div>www.mirzashakil.com</div>
-                                            </li>
-                                            <li>
-                                                <div>Address</div>
-                                                <div>396 Free School Streer, Dhanmondi</div>
-                                            </li>
-                                        </ul>
+
+                            <div class="spacer-single"></div>
+
+                            <div class="col-md-12 text-center">
+                                <ul id="filters">
+                                    <li><a href="#" data-filter="*" class="selected">all projects</a></li>
+                                    <li><a href="#" data-filter=".illustration">Brand Design</a></li>
+                                    <li><a href="#" data-filter=".mobile">Social Media Design</a></li>
+                                    <li><a href="#" data-filter=".photography">Motion Design (Animaiton)</a></li>
+                                    <li><a href="#" data-filter=".website">Web And UI/UX Design</a></li>
+                                </ul>
+
+                                <div id="gallery" class="gallery full-gallery de-gallery pf_full_width pf_3_cols grid sequence">
+                                    <!-- gallery item -->
+                                    <div class="item illustration website gallery-item pf-click" data-value="project-details-image.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Multi Images</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/1.jpg" alt="" />
+                                        </div>
                                     </div>
+                                    <!-- close gallery item -->
 
-                                    <div class="spacer60"></div>
-
-                                    <h3>Send message</h3>
-                                    <div class="spacer20"></div>
-                                    <form name="contactForm" id='contact_form' class="form-transparent" method="post" action='email.php'>
-
-                                        <div class="field-set">
-                                            <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
-                                            <div class="line-fx"></div>
+                                    <!-- gallery item -->
+                                    <div class="item photography gallery-item pf-click" data-value="project-details-slider.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Slider Images</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/2.jpg" alt="" />
                                         </div>
+                                    </div>
+                                    <!-- close gallery item -->
 
-                                        <div class="field-set">
-                                            <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
-                                            <div class="line-fx"></div>
+                                    <!-- gallery item -->
+                                    <div class="item illustration gallery-item pf-click" data-value="project-details-youtube.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Youtube Video</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/3.jpg" alt="" />
                                         </div>
+                                    </div>
+                                    <!-- close gallery item -->
 
-                                        <div class="field-set">
-                                            <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
-                                            <div class="line-fx"></div>
+                                    <!-- gallery item -->
+                                    <div class="item photography illustration mobile gallery-item pf-click" data-value="project-details-image-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Multi Images Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/4.jpg" alt="" />
                                         </div>
+                                    </div>
+                                    <!-- close gallery item -->
 
-                                        <div class="field-set">
-                                            <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
-                                            <div class="line-fx"></div>
+                                    <!-- gallery item -->
+                                    <div class="item photography mobile website gallery-item pf-click" data-value="project-details-slider-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Slider Images Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/5.jpg" alt="" />
                                         </div>
+                                    </div>
+                                    <!-- close gallery item -->
 
-                                        <div id='submit'>
-                                            <input type='submit' id='send_message' value='Send' class="btn btn-custom">
+                                    <!-- gallery item -->
+                                    <div class="item mobile website gallery-item pf-click" data-value="project-details-youtube-big.html">
+                                        <div class="picframe wow">
+                                            <span class="overlay">
+                                                <span class="pf_text">
+                                                    <span class="project-name">Youtube Video Big</span>
+                                                </span>
+                                            </span>
+                                            <img src="images/portfolio-2/6.jpg" alt="" />
                                         </div>
-                                        <div id='mail_success' class='success'>Your message has been sent successfully.
-                                        </div>
-                                        <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
-
-                                    </form>
+                                    </div>
+                                    <!-- close gallery item -->
                                 </div>
                             </div>
-
-                            <div class="clearfix"></div>
+                            <!-- portfolio filter close -->
                         </div>
                     </div>
                 </section>
                 <!-- section close -->
 
-            </div>
-            <!-- CONTENT CLOSE -->
+                <div id="loader-area" class="la-dark" data-bgcolor="#202020">
+                    <div class="container">
+                        <div class="project-load"></div>
+                    </div>
+                </div>
 
+                <section id="section-blog" data-bgcolor="#202020">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Our Blog</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/1.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Mirza Shakil</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Better User Interface</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/2.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Mirza Shakil</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Experts Web Design Tips</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mb30">
+                                <div class="bloglist item">
+                                    <div class="post-content">
+                                        <div class="post-image">
+                                            <img alt="" src="images/news/3.jpg" />
+                                            <div class="post-info">
+                                                <div class="inner"><span class="post-date">10 hours ago</span> <span class="post-author">Mirza Shakil</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="post-text">
+                                            <h4><a href="#">Importance Of Web Design</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- section begin -->
+                <section id="section-contact" data-bgcolor="#252525">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 offset-lg-3">
+                                <div class="text-center">
+                                    <h2>Contact </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="spacer-30"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form name="contactForm" id="contact_form" class="row form-default form-dark" method="post" action="email.php">
+                            <div class="col-md-6">
+                                <div class="field-set">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" />
+                                    <div class="line-fx"></div>
+                                </div>
+
+                                <div class="field-set">
+                                    <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" />
+                                    <div class="line-fx"></div>
+                                </div>
+
+                                <div class="field-set">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" />
+                                    <div class="line-fx"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="field-set">
+                                    <textarea name="message" id="message" class="form-control" placeholder="Your Message"></textarea>
+                                    <div class="line-fx"></div>
+                                </div>
+                            </div>
+
+                            <div class="spacer-single"></div>
+
+                            <div class="col-md-12 text-center">
+                                <div id="submit">
+                                    <input type="submit" id="send_message" value="Submit Form" class="btn btn-custom color-2" />
+                                </div>
+                                <div id="mail_success" class="success">Your message has been sent successfully.</div>
+                                <div id="mail_fail" class="error">Sorry, error occured this time sending your message.</div>
+                            </div>
+                        </form>
+
+                        <div class="spacer-double"></div>
+
+                        <div class="row text-center wow fadeInUp">
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_mobile id-color size40 mb20"></i>
+                                <h6 class="id-color">Call me</h6>
+                                <p>(880) 16244 52103</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_house_alt id-color size40 mb20"></i>
+                                <h6 class="id-color">Visit Office</h6>
+                                <p>Mirpur DOHS Road 9, Bangladesh, Dhaka</p>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="wm-1"></div>
+                                <i class="icon_mail_alt id-color size40 mb20"></i>
+                                <h6 class="id-color">Email me</h6>
+                                <p>msdiit124@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- content close -->
+
+            <!-- footer begin -->
+            <footer class="dark" data-bgcolor="#252525">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 sm-text-center mb-sm-30">
+                            &copy; Copyright 2022 - Designed by Mirza Shakil
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- footer close -->
+            </div>
+
+            <a href="#" id="back-to-top"></a>
+
+            <div id="preloader">
+                <div class="spinner">
+                    <div class="bounce1"></div>
+                    <div class="bounce2"></div>
+                    <div class="bounce3"></div>
+                </div>
+            </div>
         </div>
 
-        <div id="preloader">
-            <div class="s1">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
+        
 
-    <!-- Javascript Files
+        <!-- Javascript Files
     ================================================== -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/easing.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/validation.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/enquire.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.plugin.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/typed.js"></script>
-    <script src="js/typed-custom.js"></script>
-	<script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/designesia.js"></script>
-
-</body>
-
+        <script src="js/particles.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/easing.js"></script>
+        <script src="js/owl.carousel.js"></script>
+        <script src="js/validation.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/enquire.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/jquery.plugin.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/typed-custom.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/designesia.js"></script>
+    </body>
 </html>
